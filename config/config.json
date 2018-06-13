@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "std_tracking",
+    "host": "192.168.1.119",
+    "port" : "5432",
+    "dialect": "postgres",
+    "logging": true
+  },
+  "test": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "std_tracking",
+    "host": "192.168.1.119",
+    "port" : "5432",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "std_tracking",
+    "host": "192.168.1.119",
+    "port" : "5432",
+    "dialect": "postgres",
+    "logging": false
+  }
+}
